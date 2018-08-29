@@ -1,0 +1,113 @@
+.padre{
+	display: flex;
+		flex-flow: column nowrap;
+}
+.margen-interno{
+	padding: 0 100px;
+}
+	.header{
+		background: url(harry.jpg);
+		background-position: center;
+		background-attachment: contain;
+		background-size: cover;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+		.menu{
+			display: flex;
+			flex-flow: row nowrap;
+			height: 60px;
+			background: rgba(0, 0, 0, 1);
+			align-items: center;
+		}
+			.logo{
+				flex: 1 1 auto; 
+			}
+				.logo a{
+					color: #fff;
+					font-size: 30px;
+				}
+					.logo a:hover{
+						color: #343434;
+					}
+			.buscador{
+				flex: 1 1 auto; 
+			}
+			.nav{
+				flex: 1 1 auto; 
+			}
+				.nav a{
+						color: #fff;
+						font-size: 11px;
+						text-transform: uppercase;
+						padding: 0 10px;
+						letter-spacing: 2px;
+				}
+					.nav a:hover{
+						color: #343434;
+					}
+		.principal{
+			height: 430px;
+			display: flex;
+			align-items: center;
+		}
+			.info{
+				flex: 1 1 auto;
+				background: #ffff00;
+			}
+	
+	.aside{
+		/*position: fixed;
+		float: right;*/
+		flex: 1 1 20%;
+		margin:10px 5px 0 0px;
+		background: rgba(0, 0, 0, .5);
+		/*position:fixed; top: 60px; right: 2%;*/}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 20px;
+    /*margin: auto;*/
+}
+*{
+	padding: 0px;
+	margin: 0px;
+    box-sizing: borderbox;
+
+}
+body{
+	font-family: 'Monserrat', sans-serif;
+}
+
+h1
+{
+
+	color:rgb(100, 5, 49);
+	text-align: center;
+}
+
+footer
+{
+   font-size:12px;
+   color:white;
+}
+
+li
+{
+    align-items: center;
+	list-style: none;
+	display: inline;
+	padding-right: 75px;
+	padding-left: 75px;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+footer h3
+{
+	text-align: center;
+}

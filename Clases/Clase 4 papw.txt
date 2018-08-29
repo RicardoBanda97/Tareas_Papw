@@ -1,0 +1,18 @@
+Formularios
+
+
+            <form action="Destino.php" method="GET">
+                Envia desde el url
+                <input type="text" name="ejemplo">
+                Limitado a 3000 caracteres
+            </form>
+            
+            <input type="radio" name="d1" value="Elije">
+
+            <textarea form="form1" name="vall"></textarea>
+
+Fieldset
+agrupa la informacion
+
+tarea
+pagina de registro de usuario
